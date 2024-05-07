@@ -10,6 +10,7 @@ int main()
 	ifstream input_file("hello.txt");
 	string line;
 	vector<string> lines;
+	cout << "<input.txt>" << endl << endl;
 	if (input_file.is_open())
 	{
 		while (getline(input_file, line))
@@ -28,7 +29,7 @@ int main()
 
 
 	cout << endl;
-	cout << "output.txt" << endl;
+	cout << "<output.txt>" << endl << endl;
 	ofstream output_file("output.txt");
 
 	for (int i = lines.size() - 1; i >= 0; --i) {
