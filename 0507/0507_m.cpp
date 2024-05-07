@@ -23,7 +23,7 @@ int main()
     int num;
     cout << "몇 명의 회원을 저장하시겠습니까? : ";
     cin >> num;
-    cin.ignore(); // cin과 getline 같이쓰면 ginore 써야함(?)
+    cin.ignore(); // cin과 getline 같이쓰면 ignore 써야함(?)
 
     cout << num << "명의 회원에 대한 이름 비밀번호를 순차적으로 입력하세요." << endl;
 
