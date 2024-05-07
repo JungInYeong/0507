@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <fstream>
 #include <vector>
 #include <string>
@@ -22,7 +22,7 @@ int main()
 	}
 	else
 	{
-		cout << "ÆÄÀÏ ¾øÀ½" << endl;
+		cout << "íŒŒì¼ ì—†ìŒ" << endl;
 		return 1;
 	}
 	input_file.close();
